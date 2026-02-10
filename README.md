@@ -51,9 +51,5 @@ The ALU operation is controlled by the **Select Switches (S1, S0)** and the **Mo
 5. Use the **DIP Switches** to set inputs A and B.
 6. Toggle **S1/S0** to switch between operations.
 
-## Screenshots
-### Full Circuit Wiring
-![Full Circuit](circuit_diagram.png)
-
 ## License
 This project is open-source and available for educational purposes.
