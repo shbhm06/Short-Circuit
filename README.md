@@ -43,13 +43,3 @@ The ALU operation is controlled by the **Select Switches (S1, S0)** and the **Mo
   - A `+1` is added via the Carry-In (C0) pin of the Adder.
   - Result: $A + \bar{B} + 1$.
 
-## How to Run the Simulation
-1. Install **NI Multisim** (Version 14.0 or later recommended).
-2. Download the `4Bit_ALU_Design.ms14` file from this repository.
-3. Open the file in Multisim.
-4. Start the simulation (F5).
-5. Use the **DIP Switches** to set inputs A and B.
-6. Toggle **S1/S0** to switch between operations.
-
-## License
-This project is open-source and available for educational purposes.
