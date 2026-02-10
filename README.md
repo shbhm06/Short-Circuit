@@ -14,7 +14,7 @@ The design uses standard **74LS series TTL ICs** and features a **Multiplexer-ba
 - **Output Selection:** Uses a 4-to-1 Multiplexer to select which operation is displayed.
 - **Visualization:** Output is decoded and shown on a Hexadecimal 7-Segment Display.
 
-## 🔧 Components Used
+## Components Used
 | Component | Quantity | Description |
 |-----------|:--------:|-------------|
 | **74LS83N** | 1 | 4-Bit Binary Full Adder |
