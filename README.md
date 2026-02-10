@@ -1,13 +1,13 @@
 # 4-Bit Arithmetic Logic Unit (ALU) in NI Multisim
 
-## 📌 Project Overview
+## Project Overview
 This project is a simulation of a **4-bit ALU (Arithmetic Logic Unit)** designed using **NI Multisim**. It is capable of performing both arithmetic (Addition, Subtraction) and logical operations (AND, OR, XOR) on two 4-bit binary numbers.
 
 The design uses standard **74LS series TTL ICs** and features a **Multiplexer-based selection system** to display the output on a single 7-segment display.
 
 ![Circuit Diagram](circuit_diagram.png)
 
-## 🛠 Features
+## Features
 - **4-Bit Inputs:** Accepts two 4-bit binary numbers (A and B) via DIP switches.
 - **Arithmetic Unit:** Performs Addition and 2's Complement Subtraction.
 - **Logic Unit:** Performs bitwise AND, OR, and XOR operations.
@@ -22,10 +22,10 @@ The design uses standard **74LS series TTL ICs** and features a **Multiplexer-ba
 | **74LS86N** | 2 | Quad 2-Input XOR Gate (used for Subtraction logic & Logic XOR) |
 | **74LS08N** | 1 | Quad 2-Input AND Gate |
 | **74LS32N** | 1 | Quad 2-Input OR Gate |
-| **DCD_HEX** | 1 | Decoded 7-Segment Hex Display |
+| **DCD_HEX** | 2 | Decoded 7-Segment Hex Display |
 | **Switches** | 10 | For Inputs A, B, and Select Lines |
 
-## ⚙️ Operation Logic
+## Operation Logic
 The ALU operation is controlled by the **Select Switches (S1, S0)** and the **Mode Switch (M)**.
 
 ### **Selection Truth Table**
@@ -43,7 +43,7 @@ The ALU operation is controlled by the **Select Switches (S1, S0)** and the **Mo
   - A `+1` is added via the Carry-In (C0) pin of the Adder.
   - Result: $A + \bar{B} + 1$.
 
-## 🚀 How to Run the Simulation
+## How to Run the Simulation
 1. Install **NI Multisim** (Version 14.0 or later recommended).
 2. Download the `4Bit_ALU_Design.ms14` file from this repository.
 3. Open the file in Multisim.
@@ -51,9 +51,9 @@ The ALU operation is controlled by the **Select Switches (S1, S0)** and the **Mo
 5. Use the **DIP Switches** to set inputs A and B.
 6. Toggle **S1/S0** to switch between operations.
 
-## 📸 Screenshots
+## Screenshots
 ### Full Circuit Wiring
 ![Full Circuit](circuit_diagram.png)
 
-## 📜 License
+## License
 This project is open-source and available for educational purposes.
